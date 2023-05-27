@@ -248,6 +248,42 @@ background-color:#c7791b;
 color:#23272c;
 
 }
+/*Contact end*/
+/*footer start*/
+footer{
+min-height: 60px;
+background-color: black;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding: 10px;
+
+}
+footer p{
+	color: white;
+	text-transform: capitalize;
+	font-size: 20px;
+	margin: 20px;
+
+}
+footer p a{
+text-decoration: none !important;
+color: #c7791b;
+margin-left: 0px;
+
+}
+footer #whatsapp{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+footer #whatsapp i{
+	color: green;
+	font-size: 25px;
+}
 
 
 

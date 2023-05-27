@@ -155,25 +155,39 @@ min-height: 500px;
 background-image:url('assets/background-4.jpg');
 background-size: 100% 100%;
 }
-.services.parent-services{
-padding: 20px;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
+.parent-Services {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+ .Services .parent-Services {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ }
+  .Services .parent-Services div{
+        width: 300px;
+        margin: 20px;
+        height: 200px;
+      }
 
 
-}
-.Services .parent-Services div{
+
+.Services .parent-Services {
 	width: 300px;
 	margin: 20px;
 	height: 200px;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+justify-content: space between;
+	align-items: center;
 }
 .Services .parent-Services div img{
  height: 100px;
 width: 100px;
+
+
 
 }
 .Services .parent-Services div .title{
@@ -181,6 +195,63 @@ width: 100px;
 
 	font-size: 30px;
 }
+/*server end*/
+/*Contact start*/
+.contact{
+background-image: url('assets/background-5.jpg');
+background-size: 100% 100%;
+padding: 45px 30px;
+}
+.contact form {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	margin-top:50px;
+	padding: 0px 30px;
+
+}
+.contact form div{
+	width: 49%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.contact form div input{
+	width: 100%;
+	height: 60px;
+	padding: 20px 0px 20px 20px;
+	margin: 8px 0px;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 8px 0px black;
+}
+.contact form div .Massage{
+	height: 140px;
+}
+.contact form div input[type=Sumbit]{
+	background-color:#23272c;
+	box-shadow: none;
+	font-size:25px;
+	text-align: center;
+	font-weight: 400;
+	padding: 0px;
+	color:#c7791b;
+	text-transform: capitalize;
+	cursor:pointer;
+	transition: 3s linear;
+}
+.contact form div input[type=Sumbit]:hover{
+
+background-color:#c7791b;
+color:#23272c;
+
+}
+
+
+
+
 
 
 

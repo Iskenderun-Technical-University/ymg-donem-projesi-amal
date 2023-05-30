@@ -88,14 +88,15 @@ margin:auto;
 overflow:hidden;
 position:relative;
 
+
 }
 
-.menu.parent-menu .menu-food-item img{
+/*.menu.parent-menu .menu-food-item img{
 width: 100%;
 height:100%;
 cursor:pointer;
 
-}
+}*/
 
 
 .menu.parent-menu.menu-food-item.icoon {
@@ -150,10 +151,12 @@ padding-left: 30px;
 /*about end*/
 /*service start*/
 .Services{
-padding:20px;
+	color: ;
+padding:30px;
 min-height: 500px;
-background-image:url('assets/background-4.jpg');
-background-size: 100% 100%;
+background-image:url('assets/backround-9.jpg');
+background-size:100% 100%;
+background-position:center;
 }
 .parent-Services {
         display: flex;
@@ -194,6 +197,7 @@ width: 100px;
 
 
 	font-size: 30px;
+	color:black;
 }
 /*server end*/
 /*Contact start*/
@@ -240,7 +244,7 @@ padding: 45px 30px;
 	color:#c7791b;
 	text-transform: capitalize;
 	cursor:pointer;
-	transition: 3s linear;
+	transition: 1s linear;
 }
 .contact form div input[type=Sumbit]:hover{
 
@@ -281,7 +285,7 @@ footer #whatsapp{
 
 }
 footer #whatsapp i{
-	color: green;
+	color:#00FF00;
 	font-size: 25px;
 }
 

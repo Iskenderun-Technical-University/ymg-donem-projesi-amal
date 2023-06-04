@@ -93,9 +93,24 @@ position:relative;
 }
 
 
+.menu-food-item .m h2{
+	font-size: 18px;
+	color: #c7791b;;
 
 
-.menu.parent-menu.menu-food-item.icoon {
+
+}
+.menu-food-item .m p{
+	font-size: 18px;
+	color: #c7791b;;
+
+
+
+}
+
+
+
+/*.menu.parent-menu.menu-food-item.icoon {
 position:absolute;
 width:100%;
 height:50px;
@@ -112,7 +127,7 @@ transition:.5s linear;}
 .menu.parent-menu .menu-food-item.icoon i{
 color:white;
 font-size:30px;
-}
+}*/
 .about{
 width: 100%;
 min-height: 100%;
